@@ -1,0 +1,156 @@
+* {
+  font-family: "Poppins";
+  overflow: none;
+}
+
+h1 {
+  color: #2d51f7;
+  font-weight: 700;
+}
+
+.button-green {
+  background-color: #27d986;
+  border: none;
+  color: #fff;
+}
+.button-green:hover {
+  background-color: #fff;
+  color: #27d986;
+  border: 1px #27d986 solid;
+}
+
+.navbar {
+  box-shadow: 1px 2px 20px -1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 1px 3px 9px -1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 3px 20px -1px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+.navbar .navbar-nav {
+  align-items: center;
+}
+.navbar .navbar-nav .active {
+  color: #23bd75 !important;
+}
+.navbar .navbar-nav .nav-link:hover {
+  color: #27d986 !important;
+  transition: 0.2s ease-in;
+}
+
+.landingpage {
+  margin: 50px 0 200px 0;
+}
+.landingpage h1 {
+  color: #2d51f7;
+  font-size: 60px;
+  font-weight: 800;
+}
+.landingpage .content-lp {
+  padding-top: 50px;
+}
+
+.benefit .row {
+  padding-bottom: 120px;
+}
+.benefit .benefit-img {
+  width: 700px;
+}
+.benefit .padding-content {
+  padding: 100px;
+}
+
+.team {
+  background-image: url("../img/team-bg.png");
+  height: 900px;
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+}
+.team .content {
+  padding-top: 220px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+.team .content h1 {
+  top: 250px;
+  margin-bottom: 70px;
+  color: #fff;
+  font-weight: 700;
+}
+.team .content .team-role {
+  font-weight: 600;
+  color: #27d986;
+}
+.team .content .card {
+  border-radius: 20px;
+  width: 90%;
+}
+.team .content .card img {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.faq .row {
+  margin: 120px 0 120px 0;
+}
+.faq .row .faq-item {
+  padding: 10px 0 0px 0;
+}
+.faq a {
+  text-decoration: none;
+  color: #202020;
+}
+.faq .collapse .clearfix {
+  margin-top: 24px;
+}
+
+.testimonial {
+  background-image: url("../img/bg-testimonial.png");
+  height: 800px;
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+}
+.testimonial .content {
+  text-align: center;
+  padding-top: 320px;
+}
+.testimonial .content h1 {
+  color: #fff;
+  margin-bottom: 44px;
+}
+.testimonial .content h3 {
+  color: #fff;
+}
+
+footer .content-footer {
+  background-color: #27d986;
+  padding: 120px 60px;
+}
+footer .content-footer .footer-link {
+  padding: 2px 0px;
+}
+footer .footer {
+  background-color: #23bd75;
+  padding: 20px;
+}
+footer .footer p {
+  color: #fff;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+}
+footer a:hover {
+  color: #2d51f7;
+  transition: 0.2s ease-in;
+}
+
+@media screen and (max-width: 300px) {
+  h1 {
+    font-size: 24px;
+  }
+}
+
+/*# sourceMappingURL=main.css.map */
